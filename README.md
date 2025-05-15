@@ -4,6 +4,8 @@ A surface area aging atlas for healthy middle-aged and elderly populations
 We constructed a surface area-based brain aging atlas using healthy middle-aged and elderly control data from the ADNI（https://ida.loni.usc.edu/pages/access/search.jsp?tab=collection&project=ADNI&page=DOWNLOADS&subPage=IMAGE_COLLECTIONS） dataset, employing non-negative matrix factorization constrained by cortical surface topology. This methodology enabled the identification of three distinct cortical atrophy subtypes through advanced pattern decomposition.
 
 Hierarchical
+```plaintext
+Aging Atlas/
 ├── SpatiallyRegularizedNMF.py
 ├── requirements.txt
 ├── CN/
@@ -23,6 +25,7 @@ Hierarchical
     ├── nmf_clusters_lh_3.annot
     ├── analysis_lh.png
     └── . . .
+```
     
 Run codes
 1、Loading the cortical surface area matrices (lh_area.mgh for left hemisphere and rh_area.mgh for right hemisphere) from the FreeSurfer mgh format.
