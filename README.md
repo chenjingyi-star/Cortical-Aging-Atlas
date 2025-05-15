@@ -32,7 +32,7 @@ Run codes
 ```plaintext
 python read_modalities.py
 ```
-2、Processing data matrix.
+2、Process data matrix.
 ```plaintext
 python mask_modalities.py
 ```
