@@ -29,18 +29,22 @@ Aging Atlas/
     
 Run codes
 1、Loading the cortical surface area matrices (lh_area.mgh for left hemisphere and rh_area.mgh for right hemisphere) from the FreeSurfer mgh format.
+```plaintext
 python read_modalities.py
-
+```
 2、Processing data matrix.
+```plaintext
 python mask_modalities.py
-
+```
 3、Run NMF.
 (1) Process single hemisphere
+```plaintext
 python spatial_nmf.py --hemi lh
-
+```
 (2) Process bilateral hemispheres (default)
+```plaintext
 python SpatiallyRegularizedNMF.py
-
+```
 Atlas
 ![atlas](https://github.com/user-attachments/assets/a0ca5201-914d-4f55-ba82-11629476b1d8)
 
