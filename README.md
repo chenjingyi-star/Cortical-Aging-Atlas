@@ -52,10 +52,10 @@ python spatial_nmf.py --hemi lh
 python SpatiallyRegularizedNMF.py
 ```
 
-##Atlas
+## Atlas
 ![atlas](https://github.com/user-attachments/assets/a0ca5201-914d-4f55-ba82-11629476b1d8)
 
-##Atrophy subtypes
+## Atrophy subtypes
 ![atrophy subtypes](https://github.com/user-attachments/assets/0a951efa-3be1-4bf5-9667-ec57aaad2283)
 
 
