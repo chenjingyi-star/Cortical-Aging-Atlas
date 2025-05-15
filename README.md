@@ -26,29 +26,36 @@ Aging Atlas/
     ├── analysis_lh.png
     └── . . .
 ```
-    
-Run codes
+
+## Quick star
+# Install dependencies
+```bash
+   pip install -r requirements.txt
+```
+# Run codes
+
 1、Loading the cortical surface area matrices (lh_area.mgh for left hemisphere and rh_area.mgh for right hemisphere) from the FreeSurfer mgh format.
-```plaintext
+```Python
 python read_modalities.py
 ```
 2、Process data matrix.
-```plaintext
+```Python
 python mask_modalities.py
 ```
 3、Run NMF.
 (1) Process single hemisphere
-```plaintext
+```Python
 python spatial_nmf.py --hemi lh
 ```
 (2) Process bilateral hemispheres (default)
-```plaintext
+```Python
 python SpatiallyRegularizedNMF.py
 ```
-Atlas
+
+##Atlas
 ![atlas](https://github.com/user-attachments/assets/a0ca5201-914d-4f55-ba82-11629476b1d8)
 
-Atrophy subtypes
+##Atrophy subtypes
 ![atrophy subtypes](https://github.com/user-attachments/assets/0a951efa-3be1-4bf5-9667-ec57aaad2283)
 
 
